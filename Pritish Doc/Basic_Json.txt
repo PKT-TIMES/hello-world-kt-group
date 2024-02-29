@@ -1,0 +1,130 @@
+JSON:-JAVA SCRIPT OBJECT NOTATION.
+
+JSON IS A LIGHT-WEIGHT DATA-INTERCHANGE FORMAT.
+IT IS A EASY FOR HUMAN TO READ AS WELL AS RIGHT.
+IT IS EASY TO MACHINE TO PAERSE AND GENERATE.
+IT IS BASED ON A SUBSET OF THE JAVA SCRIPT PROGRMMINNG LANGUAGES
+
+
+JSON IS BUILT ON 2 STRUCTURE:
+
+1. OBJECT: A COLLECTION OF NAME VALUE PAIR.
+   *RECORD, STRUCT,HASH TABLE,
+   DICTIONARY,ASSOCIATIVE ARRAY
+
+
+2. ARRAY: AN ORDERED LIST OF VALUES. 
+   *VECTOR
+    LIST 
+	SEQUENCES
+	
+	NOTES: IN MODERN PROGRAMMING LNG.
+	SUPPORTS THESE 2 DATA STRUCTURE IN ONE FOR OR OTHER.
+
+
+RULES FOR OBJECT: 
+
+AN OBJECT IS A UNORDERED SET OF NAME/VALUE PAIRS.
+AN OBJECT BEGINS WITH LEFT CURELY BRACE {
+AND ENDS WITH RIGHT CURELY BRACE }.
+EACH NAME IS FOLLOWED BY COLON:
+AND THE NAME/VALUE PAIRS ARE SEPARTED BY COMMMA,
+
+
+RULES FOR ARRAY:
+ARRAY IS A OREDERD COLLECTION OF VALUES
+
+ARRAY MUST BEGIN WITH A SQUARE BRACKET [
+ENS WITH THE SQAURE BRACKET]
+
+VALUESARE SEPARTED BY COMMA,
+	
+	USECASE1
+	**********
+
+{
+  LANGUAGES:
+    [
+	  {"name": "HTML"
+	   "version": "4.0"
+	  },
+      {"name": "C+"
+	   "version": "7.0"	
+      }
+    ]
+}	
+
+OBJECT-LANGUAGES
+ARRAY-NAME,VERSION,
+
+
+  USECASE2:
+  *********
+  
+  {
+    "USERS" :--------------------------unordered manner /OBJECT
+	   [
+	     {"student": "Suprija"
+		 },
+		 {"student" : "pooja"-------------ordred manner /ARRAY
+		 }
+	   ],
+	"Hobbies" 
+       [
+         {"preference" :"cricket"
+         },
+         {"no prioroty" : "Hockey"
+         }
+       ]
+  }	   
+  
+  
+
+USECASE:3
+**********
+{
+      "STUDENT" :  ---DEFINING A OBJECT
+	        [ 
+			   {
+			      "FIRST NAME" : "SAI",
+				  "LAST NAME" : "KUMAR",
+                  "AGE" : 30,			
+			      "HOBBIES" : "CRICKET",				  
+			      "BEST FRIEND" : "VINIT",
+			      "PASSD OUT YEAR" : 2022
+	           },	
+               {	
+                  "FIRST NAME" : "MOHAN",
+				  "LAST NAME" : "KUMAR",
+                  "AGE" : 20,			
+			      "HOBBIES" : "CRICKET",				  
+			      "BEST FRIEND" : "ABHI",
+			      "PASSD OUT YEAR" : 2020			   
+			   }
+            ],
+	  "SUBJECT" :
+            [	
+                {
+                   "FAV. SUBJECT" : "AWS",
+                   "BORED SUBJECT" : "JAVA",
+                   "NO. OF YEAR OF EXPERIENCE" : 2
+                }	
+                {
+                   "FAV. SUBJECT" : "DEVOPS",
+                   "BORED SUBJECT" : "DOT NET",
+                   "NO. OF YEAR OF EXPERIENCE" : 4
+                }
+            ],
+      "COLLEGE" : "IIT JODHPUR"			
+}
+
+
+
+JSON TYPES:
+
+OBJECT{"KEY" : "VALUE"} "SUBJECT" :
+ARRAY  [123] [JAVA,PYTHON]
+STRING  "AWS" "CRICKET"
+NUMBER 1 3 9 
+BOLLEAN TRUE FASE
+NULL null

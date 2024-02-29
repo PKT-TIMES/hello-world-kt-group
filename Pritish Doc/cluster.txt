@@ -1,0 +1,40 @@
+ Creating EKS Kubernetes Cluster Using GUI
+   
+   1.	Creating a Master Node
+   2.	Installing and configuring AWS CLI & kubectl
+   3.	Creating a worker Node.
+
+ Steps to create Master Node
+   a)	Log in to the AWS portal find the Kubernetes service by searching for EKS.
+   serch EKS and go to add cluster > creat
+   b)	Create Kubernetes cluster and specify the name for the Cluster.
+    
+  then go to IAM  
+
+
+
+
+    1  sudo su
+    2  aws --version
+    3  sudo yum remove awscli
+    4  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+    5  sudo ./aws/install
+    6  sudo ./aws/install --bin-dir /usr/local/bin --install-dir /usr/local/aws-cli --update
+    7  aws configure
+    CREAT  ACCESS KEY AND SECRET ACCESS KEY AND GIVE THAT
+    IAM>SECURITY ACCESS>ROOT ACCESS KEY>MANAGE SECURITY CREDENTIAL>
+    8  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+    9  curl -LO "https://dl.k8s.io/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
+   10  echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+   11  sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+   12  kubectl version --client
+   13  aws eks --region eu-north-1 describe-cluster --name k8s --query cluster.status
+   14  aws eks --region eu-north-1 update-kubeconfig --name k8s
+   15  kubectl get svc
+   GO TO THE CLUSTER > CONFIGURE >NODE GROUP >ADD NODE GROUP
+   then creat a role for your node group
+   16  kubectl get nodes 
+   
+
+ 

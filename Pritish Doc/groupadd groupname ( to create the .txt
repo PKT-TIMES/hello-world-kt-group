@@ -1,0 +1,47 @@
+groupadd groupname ( to create the group )
+cat /etc/group ( to see the groups )
+userdel -r username ( to delete the user ) -r = remove
+groupdel pkt  ( to delete the group )
+gpasswd -a username groupname ( add a existing user to a existing group )
+gpasswd - M username1,username2,username3 groupname ( add multiple existing user's to a existing group )
+
+yum:- it's a module to manage the package (Redhat )
+apt:- ubuntu
+=================================================================
+
+apache web:- httpd/apache web server
+
+yum install hpttd -y 
+
+default = 80 port
+
+cd /etc/httpd/conf ( to modify the httpd configuration file ) we can change the default port number here )
+vi httpd.conf
+
+systemctl restart httpd ( to restart the httpd server )
+
+
+cd /var/www/html ( we can add here the code to host a page )
+vi index.html
+   <form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+ 
+=====================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+

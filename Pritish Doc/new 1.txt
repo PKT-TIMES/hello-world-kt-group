@@ -1,0 +1,61 @@
+{
+      "STUDENT" :  ---DEFINING A OBJECT
+	        [ 
+			   {
+			      "FIRST NAME" : "SAI",
+				  "LAST NAME" : "KUMAR",
+                  "AGE" : 30,			
+			      "HOBBIES" : "CRICKET",				  
+			      "BEST FRIEND" : "VINIT",
+			      "PASSD OUT YEAR" : 2022
+	           }	
+               {	
+                  "FIRST NAME" : "MOHAN",
+				  "LAST NAME" : "KUMAR",
+                  "AGE" : 20,			
+			      "HOBBIES" : "CRICKET",				  
+			      "BEST FRIEND" : "ABHI",
+			      "PASSD OUT YEAR" : 2020			   
+			   }
+            ]
+	  "SUBJECT" :
+            [	
+                {
+                   "FAV. SUBJECT" : "AWS",
+                   "BORED SUBJECT" : "JAVA",
+                   "NO. OF YEAR OF EXPERIENCE" : 2
+                }	
+                {
+                   "FAV. SUBJECT" : "DEVOPS",
+                   "BORED SUBJECT" : "DOT NET",
+                   "NO. OF YEAR OF EXPERIENCE" : 4
+                }
+            ]				
+}
+
+
+SAI KUMAR, 30,CRICKET, VINIT, 20222 ,AWS,JAVA,2
+MOHAN KUMAR, 20, CRICKET, ABHI, 2020, DEVOPS, DOT NET, 4
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:*",
+                "organizations:DescribeAccount",
+                "organizations:DescribeOrganization",
+                "organizations:DescribeOrganizationalUnit",
+                "organizations:DescribePolicy",
+                "organizations:ListChildren",
+                "organizations:ListParents",
+                "organizations:ListPoliciesForTarget",
+                "organizations:ListRoots",
+                "organizations:ListPolicies",
+                "organizations:ListTargetsForPolicy"
+            ],
+            "Resource": "*"
+        }
+    ]
+}

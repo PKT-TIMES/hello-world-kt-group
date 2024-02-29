@@ -1,0 +1,31 @@
+LINUX COMMANDS:-
+****************
+1.YUM>>>>INSTALL,UPDATE,REMOVE,SEARCH ANY PACKAGES
+2.mkdir>>>>>mk---make    dir---directory
+
+   mkdir DevOps
+   A folder will get created inside the linux platform
+
+
+  mkdir -p Hari,Ravi,Bhanu
+
+  3 folder will get created directly.
+
+3.3 TYPES OF USER:
+  A.NORMAL USER>>>>EC2-USER
+  B.ROOT USER>>>>>>TO DO MOST OF THE ACTIVITY WE NEED ROOT USER  
+  C.SUPER USER>>>>>MUTLI TASKING
+
+NOW TO SWITCH FROM ONE USER TO OTHER :- sudo su>>>su switch user
+
+4.pwd-present working directory.
+      Directory---Folder
+
+5.ls-- long list
+
+  ls --help
+
+6.cd----change directory 
+   we can switch from on directory location to the other directory location.
+
+  cd .. >>>>>>It will help us to come back one location from the current one.

@@ -1,0 +1,28 @@
+INTRODUCTION ==========================================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+...............................................................................................................................
+HELLOW SIR ,
+My name is pritish tripathy and I am besically from Odisha. I have completed my MBA from GANDHI INSTITUTE FOR TECHONOLOGY, BHUBANESWAR in 2021.After that I came to Hyderabad to learn DevPOps course coure and I have completed my DevOps course from  Sriman IT. I have the knowledge in linux, git, jenkins, maven, ansible, docker and kubernetes and also I know some of the service of AWS like ec2, iam, ami, s3, vpc, load balancer ,auto scalling,load balancer, sns, rote 53.  
+
+I have done a project of deploying the code using ci/cd with the help of jenkins and docker
+
+What fascinates you about DevOps.========================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+..............................................................................................................................
+Now the world is moving into automation. So for the growth of my carrer i am moving into this sector and also One of my brother is a senior devops engineer in cognigent and he also suggested me for doing this course. 
+
+What is Ec2 instances? Give a brief about Ec2.==========================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+..............................................................................................................................
+In Ec2 we can use different types of instancs for different purpose EX:: general purpose is use for verity of workload, compute optimize is use when you have to give mre output with a less time,memory optimize is use when you work on a big data base and you ned  huge ram where the data wil proces, storage optimize, networking capacity, and graphics hardware for your instances.
+In AWS we can creat instanceses in multiple regions and availability zones.
+Amazon EC2 provides scalable computing capacity in the AWS cloud. 
+It create a group of instances that can scale up or scale down as per the condition you set. It scale up the instances horizenntaly. It help you some cost by cutting down the instans that you don't need. When you need this it will autometically scale up.
+You can use Amazon EC2 to lunch as many or as few virtual servers as you need.
+Amazon EC2 is having two storage options i.e EBS and instance store.
+Ebs is attached with Ec2. You can access it through Ec2.With the help of EBS we can creat snapshot. Here the data is not deleted after terminatig the instance.     
+Preconfigured templates are available known as amazon machine image.                        
+By default when you create an EC2 account with amazon your account is limited to a     maximum of 20 instances per EC2 region with two default high I/O instances.
+In Ec2 with the help of load balancer we can distribute user traffic accross the multiple instances by spreading load.
+load balancer is 3 types. 
+Application load balancer -application load  balacer is only use for application. It workes on application layer.It support http and https protocol.If you want your application response would be fast you can use this load balancer.
+Network load balancer- Network load balancer workes on transport layer. It support tcp,udp and tls protocol.If you want your response time is less then you can use this load balancer.
+Classic load balancer- It workes on both application layer and transport layer. it sopport both http/https and tcp /ssl protocol.
+When your instance get stopped or terminated the public ip  changes everytime. But if your instance has an elastic ip and that instance is ever stopped or terminated, you can immediately associate a new EC2 instance with the Elastic IP.  This prevents unexpected charges on your account.
